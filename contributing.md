@@ -10,25 +10,12 @@ In this section, we present some basic instruction to start developing code for 
 Here we present the tools used for `sampler-box` development.
 
 * [Operational System](#Operational-System)
-* [IDE](#IDE)
 * [Programming Language](#Programming-Language)
+* [IDE](#IDE)
 
 ### Operational System
 
 Linux id the operational system used to develop `sampler-box` tools. You can use any distribution you are familiar to start coding and testing `sampler-box`. Ubuntu is the preferred one. All instructions described in this document are applied to Ubuntu (or Debian like distro).
-
-### IDE
-
-Currently, Visual Studio Code is used as IDE for `sampler-box` development.
-
-Extensions to be installed:
-
-* ms-python.python
-* njpwerner.autodocstring
-
-Once they are installed. Configure `VSCode`
-
-1. Press `Ctrl + Shift + P` to and type `Python: Select Interpreter` and choose the one of virtual environment created.
 
 ### Programming Language
 
@@ -88,3 +75,16 @@ To reload the environment created previously, call the command `workon` followed
 ```shell
 $ workon <env_name>
 ```
+
+### IDE
+
+Currently, Visual Studio Code is used as IDE for `sampler-box` development.
+
+Extensions to be installed:
+
+* ms-python.python
+* njpwerner.autodocstring
+
+Once they are installed. Configure `VSCode`
+
+1. Press `Ctrl + Shift + P` to and type `Python: Select Interpreter` and choose the one of virtual environment created.
