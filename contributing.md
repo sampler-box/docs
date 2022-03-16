@@ -21,6 +21,15 @@ Linux id the operational system used to develop `sampler-box` tools. You can use
 
 Currently, Visual Studio Code is used as IDE for `sampler-box` development.
 
+Extensions to be installed:
+
+* ms-python.python
+* njpwerner.autodocstring
+
+Once they are installed. Configure `VSCode`
+
+1. Press `Ctrl + Shift + P` to and type `Python: Select Interpreter` and choose the one of virtual environment created.
+
 ### Programming Language
 
 `sampler-box` is being developed using Python version 3.8.x.
